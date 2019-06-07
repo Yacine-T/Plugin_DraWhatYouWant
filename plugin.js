@@ -1,10 +1,20 @@
-$(function(){
+window.addEventListener("load", function(){
 
-$('canvas').draw({
-  fn: function(ctx) {
-    ctx.fillStyle = '#333';
-    ctx.fillRect(50, 50, 100, 100);
-  }
-});
 
- }); 
+var can = document.getElementById('canavs');
+context = can.getContext("2d");
+
+
+function move(){
+
+	x = event.pageX;
+	y = event.pageY;
+}
+
+function clear(){
+			
+		context.clearRect(0, 0, can.width, can.height);
+			
+			}
+			
+				});
