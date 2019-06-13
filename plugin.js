@@ -18,8 +18,8 @@
 		rbutton.addEventListener("click", red);
 		gbutton.addEventListener("click", green);
 		blbutton.addEventListener("click", black);
-		canvas.height = 300;
-		canvas.width = 300;
+		can.height = 315;
+		can.width = 312;
 
 			function clearContent(){	
 			context.clearRect(0, 0, can.width, can.height);
